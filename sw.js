@@ -1,0 +1,5 @@
+const V='checho-v3',CORE=['./','./index.html','./manifest.json','https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap','https://cdn.tailwindcss.com/3.4.17','https://cdn.jsdelivr.net/npm/lucide@0.469.0/dist/umd/lucide.min.js','https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>Promise.all(CORE.map(u=>fetch(u.startsWith('http')?new Request(u,{mode:'no-cors'}):u,{cache:'reload'}).then(r=>c.put(u,r)).catch(()=>{})))));self.skipWaiting()});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
+self.addEventListener('fetch',e=>{const r=e.request;if(r.method!=='GET'||r.url.includes('precios.json'))return;
+e.respondWith(caches.match(r,{ignoreSearch:true}).then(h=>{const n=fetch(r).then(x=>{if(x&&(x.ok||x.type==='opaque')){const k=x.clone();caches.open(V).then(c=>c.put(r,k))}return x}).catch(()=>h||caches.match('./index.html'));return h||n}))});

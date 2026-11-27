@@ -1,0 +1,197 @@
+{
+ "ultimaActualizacion": "Noviembre 2026",
+ "etiqueta": "Lista El Checho Noviembre 2026",
+ "config": {
+  "iva": 21,
+  "multiplicador": 2.6
+ },
+ "marmoleria": {
+  "nombre": "Marmolería \"El Checho\"",
+  "telefono": "",
+  "direccion": "",
+  "localidad": "",
+  "validezDias": 7,
+  "entrega": "A coordinar según medición y disponibilidad de material",
+  "condiciones": "50% de seña para iniciar y saldo contra entrega."
+ },
+ "bordes": [
+  {
+   "id": "recto",
+   "nombre": "Corte recto / pulido",
+   "precio": 0
+  },
+  {
+   "id": "bastón",
+   "nombre": "Medio bastón",
+   "precio": 6000
+  },
+  {
+   "id": "ingle",
+   "nombre": "Regrueso ingletado 45°",
+   "precio": 15000
+  }
+ ],
+ "trasforos": [
+  {
+   "id": "bacha",
+   "nombre": "Trasforo bacha",
+   "precio": 45000
+  },
+  {
+   "id": "anafe",
+   "nombre": "Trasforo anafe",
+   "precio": 35000
+  },
+  {
+   "id": "grifo",
+   "nombre": "Perforación grifería",
+   "precio": 8000
+  }
+ ],
+ "materiales": [
+  {
+   "nombre": "Azul Andes",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Beige Habano",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Beige Puma",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Gris Mara",
+   "extra": 75000,
+   "seleccion": 63000,
+   "comercial": 50000
+  },
+  {
+   "nombre": "Gris Perla",
+   "extra": 68000,
+   "seleccion": 55000,
+   "comercial": 44000
+  },
+  {
+   "nombre": "Marrón Habano",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Marrón Malambo",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Marrón Orcoyano",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Negro Boreal",
+   "extra": 91000,
+   "seleccion": 78000,
+   "comercial": 58000
+  },
+  {
+   "nombre": "Negro Boreal Fusión",
+   "extra": 79000,
+   "seleccion": 61000,
+   "comercial": 51000
+  },
+  {
+   "nombre": "Negro Boreal Gold",
+   "extra": 91000,
+   "seleccion": 78000,
+   "comercial": 58000
+  },
+  {
+   "nombre": "Negro Constelación",
+   "extra": 120000,
+   "seleccion": null,
+   "comercial": null
+  },
+  {
+   "nombre": "Negro de Córdoba",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Negro Magma",
+   "extra": 91000,
+   "seleccion": 78000,
+   "comercial": 58000
+  },
+  {
+   "nombre": "Porfido",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rojo Dragón Claro",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rojo Dragón Oscuro",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rojo Orcollano",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rojomar",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rosa del Salto",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Rosamar Baveno",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "San Felipe",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Sierra Chica",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  },
+  {
+   "nombre": "Sierra Chica Marrón",
+   "extra": 61000,
+   "seleccion": 53000,
+   "comercial": 45000
+  }
+ ]
+}
